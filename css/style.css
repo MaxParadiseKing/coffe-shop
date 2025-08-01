@@ -9,3 +9,6 @@ button:hover {
   background: #e64a19;
   transform: scale(1.05);
 }
+button {
+  margin: 10px;
+}
