@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <div class="background-image"></div> <!-- Новый блок для фона -->
+  <div class="background-image"></div>
   
   <header>
-    <div class="header-content">
+    <div class="header-content content-block">
       <h1>Coffee Shop!</h1>
       <p>Ваша первая чашка у нас уже готовится!!!</p>
       <button class="order-btn">Заказать</button>
@@ -17,9 +17,12 @@
   </header>
 
   <main>
-    <section class="menu">
+    <section class="menu content-block">
       <h2>Наше меню</h2>
-      <div class="coffee-items" id="coffeeContainer"></div>
+      <div class="coffee-items">
+        <div class="coffee-item">Эспрессо - 350 ₽</div>
+        <div class="coffee-item">Латте - 500 ₽</div>
+      </div>
     </section>
   </main>
 
@@ -30,3 +33,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
